@@ -41,6 +41,7 @@ Loads dataset/phishshield_new_labeled_data.csv, vectorizes URLs (TF-IDF), trains
 If you want only Random Forest for production, you can still run training and keep the Random Forest model file.
 
 - Model & Vectorizer files
+  
 tfidf_vectorizer.pkl and vectorizer.pkl are vectorizer artifacts used to transform raw URL text to numeric features. The prediction scripts load the appropriate vectorizer from models/ before transforming the input URL.
 
 Core production model: Random Forest (random_forest_model.pkl).
