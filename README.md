@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 The dataset file **dataset/phishshield_new_labeled_data.csv** included in the repo has two columns:
 
-url — string of the URL
+1. url — string of the URL
 
-label — integer label (0 = Legitimate, 1 = Phishing)
+2. label — integer label (0 = Legitimate, 1 = Phishing)
 
 If you replace or extend this dataset, keep the same column names and format.
 
